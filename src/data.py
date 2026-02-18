@@ -3,7 +3,7 @@ import torch
 from torch_geometric.utils import to_torch_csr_tensor
 
 # Load raw edge list
-df = pd.read_csv("./data/data.csv")
+df = pd.read_csv("./data/sample.csv")
 
 # Drop self-loops and edges below relationship threshold
 df = df[df["id1"] != df["id2"]]

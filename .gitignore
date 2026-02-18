@@ -9,3 +9,10 @@ __pycache__/
 
 # OS
 .DS_Store
+
+# Ignore all data by default
+data/*
+
+# Allow small sample data
+!data/sample.csv
+!data/README.md
