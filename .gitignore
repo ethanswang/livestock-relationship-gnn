@@ -16,3 +16,6 @@ data/*
 # Allow small sample data
 !data/sample.csv
 !data/README.md
+
+#Claude file
+CLAUDE.md
